@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers\API;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Http\Requests\RegistroRequest;
-use App\Http\Requests\AccesoRequest;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\RegistroRequest;
+use App\Http\Requests\AccesoRequest;
+
 use App\Models\User;
 
 class AutenticarController extends Controller

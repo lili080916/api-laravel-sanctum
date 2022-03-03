@@ -56,7 +56,7 @@ class Handler extends ExceptionHandler
         {
             return response()->json([
                 'res' => 'false',
-                'error' => 'Error modelo no encontrado',
+                'error' => 'Error: modelo no encontrado',
             ], 400);
         }
 
