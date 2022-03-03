@@ -47,7 +47,6 @@ class AutenticarController extends Controller
                 'usuario' => $user
             ] 
         ], 200);
-
     }
 
     public function logout(Request $request)
